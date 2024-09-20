@@ -1,5 +1,3 @@
-import './styles.css'
-import Header from './components/HeaderComponent'
 import SobreMi from './components/SobreMiComponent'
 import Proyectos from './components/ProyectosComponent'
 import Skills from './components/SkillsComponent'

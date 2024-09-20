@@ -1,4 +1,9 @@
-
+import zeldaImage from '../../images/zelda.png'
+import Arkanoid from '../../images/arkanoidGame.png'
+import buscadorPelis from '../../images/buscadorPelis.png'
+import TicTacToe from '../../images/TicTacToe.png'
+import tinderSwap from '../../images/tinderSwap.png'
+import hackaverse from '../../images/hackaverse.png'
 
 function Proyectos () {
     return(
@@ -12,7 +17,7 @@ function Proyectos () {
   <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6 px-4 sm:px-0">
     {/* Proyecto 1 */}
     <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/zelda.png" alt="Página de Zelda" />
+      <img src={zeldaImage} alt="Página de Zelda" />
       <article className="p-4 flex flex-col justify-between flex-grow">
         <h2 className="text-2xl font-bold">The Legend of Zelda Timeline</h2>
         <p>Página sencilla de los juegos de Zelda ordenados por año donde se puede añadir nuevo artículo o borrar uno ya existente.</p>
@@ -29,7 +34,7 @@ function Proyectos () {
 
     {/* Proyecto 2 */}
     <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/hackaverse.png" alt="Página de Hackaverse" />
+      <img src={hackaverse} alt="Página de Hackaverse" />
       <article className="p-4 flex flex-col justify-between flex-grow min-h-[250px]">
         <h2 className="text-2xl font-bold">HACKAVERSE</h2>
         <p>HackaVerse es un proyecto de fin de bootcamp impartido en HACK A BOSS. Consiste en una aplicación web orientada a los Hackathones que permite, si eres administrador, publicar eventos y puntuar a los competidores.</p>
@@ -47,7 +52,7 @@ function Proyectos () {
 
     {/* Proyecto 3 */}
     <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/buscadorPelis.png" alt="Página para buscar películas" />
+      <img src={buscadorPelis} alt="Página para buscar películas" />
       <article className="p-4 flex flex-col justify-between flex-grow">
         <h2 className="text-2xl font-bold">Buscador de películas</h2>
         <p>Página sencilla donde el usuario puede buscar películas y ordenarlas de más nuevas a más antiguas.</p>
@@ -63,7 +68,7 @@ function Proyectos () {
 
     {/* Proyecto 4 */}
     <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/TicTacToe.png" alt="Juego de tres en raya" />
+      <img src={TicTacToe} alt="Juego de tres en raya" />
       <article className="p-4 flex flex-col justify-between flex-grow">
         <h2 className="text-2xl font-bold">Tic Tac Toe</h2>
         <p>Juego de tres en raya.</p>
@@ -79,7 +84,7 @@ function Proyectos () {
 
     {/* Proyecto 5 */}
     <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/tinderSwap.png" alt="Efecto swipe de Tinder" />
+      <img src={tinderSwap} alt="Efecto swipe de Tinder" />
       <article className="p-4 flex flex-col justify-between flex-grow">
         <h2 className="text-2xl font-bold">Tinder Swap</h2>
         <p>Efecto de swipe de Tinder.</p>
@@ -97,7 +102,7 @@ function Proyectos () {
 
   {/* Proyecto 6 */}
   <li className="bg-card rounded-lg shadow-lg max-w-full transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl bg-slate-50 flex flex-col justify-between h-full">
-      <img src="/arkanoid Game.png" alt="Página para buscar películas" />
+      <img src={Arkanoid} alt="Página para buscar películas" />
       <article className="p-4 flex flex-col justify-between flex-grow">
         <h2 className="text-2xl font-bold">Arkanoid Game</h2>
         <p>Juego de Arkanoid controlado con el teclado usando sprites</p>

@@ -1,10 +1,12 @@
+import fotoDePerfil from '../../images/foto_de_perfil.png'
+
 function SobreMi () {
     return(
         
   <section id="sobre-mi" className="py-16 md:py-36 w-full mx-auto max-w-4xl">
   <div className="flex flex-col md:flex-row justify-between items-center">
     <div className="flex-shrink-0">
-      <img src="../foto_de_perfil.png" alt="George Ionut Nicu" className="rounded-full shadow-lg size-36 mt-10 md:size-44 mr-10" />
+      <img src={fotoDePerfil}  alt="George Ionut Nicu" className="rounded-full shadow-lg size-36 mt-10 md:size-44 mr-10" />
     </div>
 
     <div className="flex-1 md:mr-8">
